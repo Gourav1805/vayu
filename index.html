@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f2efe2">
+  <title>DEVLOK / VAYU — Atmospheric Intelligence</title>
+  <meta name="description" content="DEVLOK atmospheric intelligence, powered by VAYU storm nowcasting and RAVI orchestration.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css"><link rel="stylesheet" href="/vayu-app.css"><link rel="stylesheet" href="/devlok-theme.css">
+</head>
+<body>
+  <div class="vayu-layout">
+    <aside class="vayu-sidebar">
+      <a class="vayu-brand" href="/" aria-label="DEVLOK atmospheric intelligence"><span class="brand-glyph">D</span><span>DEVLOK<small>ATMOSPHERIC INTELLIGENCE</small></span></a>
+      <div class="nav-caption">VAYU · MISSION SELECTOR</div>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="/" data-route="overview"><span>◫</span> Overview</a>
+        <a href="/live-nowcast" data-route="live-nowcast"><span>⌖</span> NETRA<i class="nav-live"></i></a>
+        <a href="/storm-intelligence" data-route="storm-intelligence"><span>◉</span> MARUT</a>
+        <a href="/initiation" data-route="initiation"><span>✳</span> AGNI</a>
+        <a href="/forecasts" data-route="forecasts"><span>⌁</span> INDRA</a>
+        <a href="/fusion" data-route="fusion"><span>◌</span> VARUNA</a>
+        <a href="/ravi" data-route="ravi"><span>↗</span> RAVI</a>
+        <a href="/analytics" data-route="analytics"><span>▥</span> BUDDHI</a>
+        <a href="/replay" data-route="replay"><span>◷</span> KALA</a>
+      </nav>
+      <div class="sidebar-bottom"><div class="nav-caption">SYSTEM</div><a class="system-nav" href="/reports" data-route="reports"><span>▤</span> VANI</a><a class="system-nav" href="/settings" data-route="settings"><span>⚙</span> Settings & system</a><div class="system-status"><span class="status-indicator"></span><div><b>REPLAY / SIMULATION</b><small>3 FIXTURE SOURCES · 1 UNAVAILABLE</small></div></div></div>
+    </aside>
+    <div class="workspace">
+      <header class="workspace-topbar"><div class="breadcrumbs"><span>DEVLOK</span><b>/</b><span id="crumbCurrent">VAYU · OVERVIEW</span></div><div class="topbar-actions"><span class="cycle-stamp"><i></i> REPLAY · SIMULATED</span><span class="top-cycle">18 MAY 2026 <b>14:00 IST</b></span><button id="quickAsk" class="quiet-button" type="button">⌕ <span>Ask RAVI</span></button></div></header>
+      <main id="pageContent" class="page-content" tabindex="-1"></main>
+      <footer class="workspace-footer"><span>DEVLOK // VAYU · SIH 2026 · PS 26072</span><span>Scenario values simulated · observed lightning unavailable</span></footer>
+    </div>
+  </div>
+      <script src="/scenario-timeline.js" defer></script><script src="/vayu-app.js" defer></script>
+</body>
+</html>

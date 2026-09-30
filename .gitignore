@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build / generated files
+dist/
+build/
+.next/
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Generated / temporary artifacts
+verify_artifacts/
+frames/
+
+# Local screenshots / exports
+screenshots/
+*.zip
+
+# Local test/output files
+coverage/
+
+# Vercel
+.vercel/
